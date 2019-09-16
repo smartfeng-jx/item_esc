@@ -1,0 +1,109 @@
+.wrap{
+    width: 1280px;
+    margin: 30px auto;
+    background-color: white;
+    padding:10px;
+}
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+.fxkbox, .tztbox, .riqibox {
+    height:40px;
+}
+.fxkbox span{
+    cursor: pointer;
+    padding:4px 8px;
+    border-radius: 6px;
+    margin-right: 8px;
+    border: 1px solid transparent;
+}
+.fxkbox span:hover{
+    border: 1px solid #ccc;
+}
+.fxkbox span.multiple{
+    border: 1px solid #ccc;
+}
+.fxkbox span.cur{
+    background-color: #1890ff;
+    color:white;
+}
+.tagsbox{
+    overflow: hidden;
+    padding:20px 0;
+}
+.ant-tag{
+    padding: 8px 9px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.numberbox{
+    width: 80px;
+    margin: 0 10px;
+}
+.paixuspan{
+    border: 1px solid #ccc;
+    padding:3px 15px;
+}
+.rowinfo{
+    padding-top: 20px;
+    height:40px;
+}
+.paixuspan{
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+.paixuspan:hover{
+    background-color: skyblue;
+    color:white;
+}
+.menuinner{
+    width: 340px;
+    padding: 20px;
+
+}
+.menuinner span{
+    display: block;
+    border: 1px solid #000;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.menuinner span.cur{
+    background: #f38;
+    color: white;
+}
+.cl{
+    clear: both;
+}
+.grid{
+    height:200px;
+}
+.grid p{
+    padding:4px 0;
+    margin-bottom: 0;
+}
+.h20{
+    height:20px;
+}
+.pphcx {
+    padding-bottom: 20px;
+}
+.pphcx a{
+    margin-right: 20px;
+    padding:4px 10px;
+}
+.pphcx a.cur{
+    background-color: #f38;
+    color:white;
+}
+.pphcx .ant-tabs-tab{
+    padding: 0 20px 6px;
+}

@@ -1,0 +1,22 @@
+.carinfobox {
+    width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding:10px;
+}
+.carinfobox h1{
+    font-size:40px;
+}
+.imagesBox{
+    overflow: hidden;
+}
+.imagesBox ul{
+    list-style: none;
+}
+.imagesBox li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
